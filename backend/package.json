@@ -6,14 +6,17 @@
   "scripts": {
     "test": "jest --coverage --verbose",
     "start": "node index.js",
-    "NODE_ENV":"test"
+    "NODE_ENV": "test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "base-64": "^1.0.0",
+    "bcrypt": "^5.0.1",
     "dotenv": "^10.0.0",
     "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
     "pg": "^8.7.1",
     "sequelize": "^6.12.5",
     "sequelize-cli": "^6.3.0"
